@@ -367,10 +367,6 @@ p#copyright {
   color: black;
 }
 
-div.row.justify-content-center {
-  background-color: transparent;
-}
-
 li#address {
   font-family: "Montserrat", serif;
   color: black;
@@ -393,4 +389,8 @@ li.detail-name {
 
 #map {
   min-height: 500px;
+}
+
+footer.bg-primary {
+  background-color: #ABE1ED !important;
 }
