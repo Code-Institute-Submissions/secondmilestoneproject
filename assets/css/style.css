@@ -1,6 +1,4 @@
 
-
-
 body { 
 			background-image: url("../images/koffie4.jpg") ;
 			background-position: center center;
@@ -393,4 +391,8 @@ li.detail-name {
 
 footer.bg-primary {
   background-color: #ABE1ED !important;
+}
+
+ul {
+  list-style: none;
 }

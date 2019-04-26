@@ -65,7 +65,7 @@ function onPlaceChanged() {
 function searchAccommodation() {
     var search = {
         bounds: map.getBounds(),                //getBounds() retrieves lng/lat for corners of visible area of map
-        types: ['lodging', 'campground']
+        types: ['lodging']
     };
     places.nearbySearch(search, function(results, status) {
         if (status === google.maps.places.PlacesServiceStatus.OK) {         //If Places Service is working, create marker
@@ -89,7 +89,7 @@ function searchAccommodation() {
 function searchFoodAndDrink() {
     var search = {
         bounds: map.getBounds(),
-        types: ['restaurant', 'bar']
+        types: ['restaurant', 'bar', 'cafe', 'casino', 'night_club']
     };
     places.nearbySearch(search, function(results, status) {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
@@ -148,7 +148,7 @@ function showInfoWindow() {
 
 // Show place details in info window on map
 function setPlaceDetails(place) {
-    document.getElementById('url').innerHTML = '<a href="' + place.url + 'target="_blank">' + place.name + '</a>';
+    document.getElementById('url').innerHTML = '<a href="' + place.url + '"target="_blank">' + place.name + '</a>';
     document.getElementById('address').textContent = place.vicinity;
     document.getElementById('phone').textContent = place.formatted_phone_number;
 }
