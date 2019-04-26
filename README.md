@@ -44,7 +44,7 @@ Autocomplete feature allows Users 1, 2 and 3 to search for and select their chos
 
 ## Technologies Used ##
 
-* [HTML5](https://www.w3schools.com/html/html5_intro.asp/)
+* [HTML5](https://www.w3schools.com/html/html5_intro.asp/ "HTML5")
 
 The project uses HTML5 for the frame of the application and include links to CSS and JavaScript scripts.
 
