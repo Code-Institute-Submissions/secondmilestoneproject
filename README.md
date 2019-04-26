@@ -31,14 +31,14 @@ Real Life User Stories:
 ### Existing Features ###
 Autocomplete feature allows Users 1, 2 and 3 to search for and select their chosen locations, e.g. Amsterdam, Paris or their local area.
 
-* While the users will have no trouble searching for 'Amsterdam', 'Paris' or another city, it is best to fill in the most accurate place they want to go to. I have checked multiple times and when a user fills in Amsterdam (image 1), they will get a few spots where to sleep, eat or drink but not all.
-![picture alt](url"../assets/images/Milestone_Amsterdam.png" "Title is optional")
-* When a user types in 'Oosterpark Amsterdam' (image 2) they will get more hotels, bars or restaurants in that specific area. 
-* I have tried to be as specific as possible on my website that the user must fill in the location as accurate as possible. (image 3)
+* While the users will have no trouble searching for 'Amsterdam', 'Paris' or another city, it is best to fill in the most accurate place they want to go to. I have checked multiple times and when a user fills in Amsterdam, they will get a few spots where to sleep, eat or drink but not all.
+* When a user types in a more specific place in a city, for example 'Oosterpark Amsterdam' they will get more hotels, bars or restaurants in that specific area. 
+* I have tried to be as specific as possible on my website that the user must fill in the location as accurate as possible.
 
 ## Future features ##
-* A route planner, allowing users to add pinpoints for routes they would want to take. Example: Leave the airport, go to a restaurant and after the hotel they chose to stay in.
-* Advertisement from websites that sell airplane tickets, travel agencies, allowing the user to quickly see prices of making a trip to the selected country.
+* Getting a big crowd following us on Social Media channels, like Instagram, Facebook and Twitter.
+* Allowing users to add pinpoints for routes they would want to take.
+* Advertisement from websites that sell airplane tickets and travel agencies.
 * Add ratings to the info window on the map
 * Add photos of establishments in a separate section underneat the map
 
